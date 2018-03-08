@@ -4,7 +4,7 @@
 ------
 
 ### 文法
-![syntax](http://cloud.adamyt.com/extern-reference/syntax_ex.png)
+![syntax](http://cloud.adamyt.com/extern-reference/syntax_ex.jpg)
 
 网上很多关于编译原理的讲解貌似就是这个文法
 
