@@ -4,14 +4,14 @@
 ------
 
 ### 文法
-![syntax](http://cloud.adamyt.com/extern-reference/syntax_ex.jpg)
+![syntax](http://cloud.adamyt.com/extern-reference/syntax.jpg)
 
 网上很多关于编译原理的讲解貌似就是这个文法
 
 ------
 
 ### 词法
-![syntax](http://cloud.adamyt.com/extern-reference/word.png)
+![syntax](http://cloud.adamyt.com/extern-reference/word.jpg)
 
 ------
 
@@ -30,4 +30,4 @@ Linux下：
         
 -------
 
-详细的语法分析过程可以在上传的Word文档中查看
+详细的语法分析过程可以在上传的Word文档中查看，正在上编译原理的同学们可能用得上
