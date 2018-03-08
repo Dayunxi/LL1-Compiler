@@ -1,0 +1,33 @@
+{	//矩阵乘法解析示例
+	int[4][6] matrix1;
+	int[6][7] matrix2;
+	int[4][7] result;
+	int row1;
+	int row2;
+	int col1;
+	int col2;
+	row1 = 4;
+	col1 = 6;
+	row2 = 6;
+	col2 = 7;
+	//省略矩阵赋值操作
+	if(col1==row2){
+		int i;		//每个block前都可以声明新变量
+		i = 0;
+		while(i<row1){
+			int j;
+			j = 0;
+			while(j<col2){
+				int k;
+				k = 0;
+				result[i][j] = 0;
+				while(k<row2){
+					result[i][j] = result[i][j] + matrix1[i][k]*matrix2[k][j];
+					k = k+1;
+				}
+				j = j+1;
+			}
+			i = i+1;
+		}
+	}
+}

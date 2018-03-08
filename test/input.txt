@@ -1,0 +1,35 @@
+{	//符合文法特性的测试代码
+	//输入文件应当以UTF-8无BOM编码，否则词法分析器会读入非法字符（BOM头）
+	//有实际效果的测试代码见input_matrix_mul.txt和input_bubble_sort.txt
+	int i;
+	int j;
+	bool k;
+	bool[4] arr1;
+	int[3][2] arr2;
+	{
+		int i;	//在该block里优先使用这里申明的i
+		int[3] t;
+		do{
+			i = i+1;
+			j = i*t[0];	//使用的该block上一层的变量j
+		}
+		while((i+1)>=20);
+	}
+	while(true){
+		int[3][5][4] arr3;
+		if(arr1[i+j]>=arr3[0][0][2]||1+1>=4/2){
+			// None
+		}
+		else{
+			
+		}
+		if(1==true) j = 1+3/4*(12*7);
+		else if(i>=(j+2)) j = false;
+		else if(!(i==k)&&!false){
+			 j = -i;
+			 break;
+		}
+		else j = arr2[arr1[1]][arr3[3][j+k][1+2/(3*4)]+i];
+		//数组元素引用的嵌套
+	}
+}
